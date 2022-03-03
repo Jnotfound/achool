@@ -1,1 +1,1 @@
-# achool
+# school
