@@ -1,0 +1,18 @@
+ table, td, tr, th {
+  border-collapse:separate;
+  border:5px solid #b4dbca;
+  background-color: #3e4240;
+  color:white;
+  padding:10px;
+  text-align: center;
+  border-radius: 10px;
+
+
+}
+
+/* table{
+  border-radius: 10px;
+  border-collapse: separate;
+  border:5px solid #ab306d;
+  background-color: #262626;
+} */
