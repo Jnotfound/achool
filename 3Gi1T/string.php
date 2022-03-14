@@ -39,5 +39,13 @@ echo "Długość imienia ".ltrim($name)." wynosi:".strlen(ltrim($name))."<br>";
 echo "Długość imienia ".rtrim($name)." wynosi:".strlen(rtrim($name))."<br>";
 echo "Długość imienia ".trim($name)." wynosi:".strlen(trim($name))."<br>";
 
+//substr
+$name ="Janusz";
+echo substr($name, 0, 3)."<br>"; //Jan
+echo substr($name, 2, 2)."<br>"; //nu
 
+//str_replace
+$string = "text";
+$replace = " *** ";
+echo str_replace($string,$replace,"Janusz text Anna text text Poznań")."<br>";
 ?>
