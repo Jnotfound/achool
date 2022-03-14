@@ -48,4 +48,13 @@ echo substr($name, 2, 2)."<br>"; //nu
 $string = "text";
 $replace = " *** ";
 echo str_replace($string,$replace,"Janusz text Anna text text Poznań")."<br>";
+
+$tab = ["ą","ę"];
+$replace = ["a","e"];
+echo str_replace($tab,$replace,"Bąk");
+echo "<br>";
+
+//"janusz_kowalski@zsl.poznan.pl";
+$mail="janusz_kowalski@zsl.poznan.pl";
+echo substr($mail,strpos($mail,"@")+1);
 ?>
