@@ -15,6 +15,7 @@
       </select><br><br>
       <input type="radio" name="gender" value="man">Mężczyzna
       <input type="radio" name="gender" value="woman">Kobieta<br><br>
+      <input type="checkbox" name="terms"> Regulamin<br><br>
       <input type="submit" value="zatwierdź">
 
     </form>
