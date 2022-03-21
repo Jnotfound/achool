@@ -3,7 +3,7 @@
   // print_r($_POST);
   $error=0;
 
-  if(!isset($_POST['gender'])){
+  if(!isset($_POST['gender'],$_POST['terms'])){
     $error=1;
   }
   foreach ($_POST as $key => $value) {
@@ -16,6 +16,7 @@
     echo "<script>history.back();</script>";
     exit();
   }
+
   switch($_POST['gender']){
     case 'man':
       $gender = "Mężczyzna";
