@@ -16,10 +16,20 @@
     echo "<script>history.back();</script>";
     exit();
   }
-
+  switch($_POST['gender']){
+    case 'man':
+      $gender = "Mężczyzna";
+      break;
+    case 'woman':
+      $gender = "Kobieta";
+      break;
+    default:
+      $gender = "";
+      break;
+  }
   echo <<< DATA
   Imię i nazwisko: $_POST[name] $_POST[surname]<br>
   miasto: $_POST[city]<br>
-  plec: $_POST[gender]<br>
+  plec: $gender<br>
 DATA;
 ?>
